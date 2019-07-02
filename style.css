@@ -1,2 +1,97 @@
-<h1{ font-size: 45;
+body {
+    margin: 0;
+    font-family: 
 }
+
+nav {
+    background-color: orange;
+    height: 50pt;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+
+}
+
+nav a {
+    
+    text-decoration:none;
+    color: #000000 ;
+    font-weight: bold;
+    font-size: 15pt; 
+    font-family: 'Lora', serif;
+
+}
+ nav a:hover {
+     color: #7a166f
+ }
+
+.banner {
+    height: 400px;
+    background-image: url("img/comida1.jpg");
+    background-size: cover; 
+
+}
+.banner h1, h4 {
+    color:#7a166f;
+    text-align: center;
+    font-family:'Dancing Script', cursive;
+    margin-bottom: 0px;
+  
+}
+h4{
+    margin-top: 0px;
+}
+h1{
+     font-size: 50pt ;
+     margin: 0px;
+     padding: 0px;
+     
+}
+.cadastro {
+    display: flex; 
+    justify-content: center;
+    background-color:orange
+}
+.cadastro div {
+    display: flex; 
+    flex-direction: column; 
+    width: 300px;
+
+}
+input {
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.botao:hover {
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 30px;
+}
+::placeholder{
+    color: blue ;
+    font-size: 10 pt;
+}
+footer {
+
+    font-size: 20pt;
+    display: flex; 
+    flex-direction: column;
+    align-content: space-around;
+    text-align: center;
+    color: #7a166f;
+    font-family:'Dancing Script', cursive;
+    align-items: center
+ 
+}
+footer div {
+    width: ;
+
+
+}
+img{
+    height: 30px;
+
+
+}
+ 
